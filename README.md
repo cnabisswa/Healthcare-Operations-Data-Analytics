@@ -1,16 +1,16 @@
-# Operational Data Wrangling & Resource Utilization Analytics
+# Healthcare Operations & Patient Resource Utilization Analytics
 
 ## Executive Summary
-An operational analytics project processing over 260,000 transaction records to evaluate service utilization patterns, client/patient segmentation, and administrative efficiency. Utilizing Python (`pandas`), this project converts large-scale transactional data into actionable operational metrics to inform capacity planning and strategic resource allocation.
+An operational data analytics project evaluating 260,000+ patient service encounter logs to analyze resource utilization, capacity demand, and administrative revenue performance across patient cohorts. Built using Python (`pandas`, `seaborn`), this project demonstrates administrative data quality assurance, table harmonization, and patient cohort segmentation.
 
-## Key Operational Objectives
-- **Data Integration & Quality Control:** Standardized, deduplicated, and validated high-volume relational data records to ensure integrity across system tables.
-- **Service Utilization Analysis:** Segmented client accounts based on interaction frequency and overall demand to identify high-utilizer patterns.
-- **Workflow & Feature Extraction:** Automated string parsing to categorize product/service specifications, optimizing catalog mapping and reporting.
-- **Executive Reporting:** Built visual analytics dashboards mapping service volume, interaction frequency, and financial contributions across key demographic groups.
+## Core Operational Objectives
+- **Data Integration & Quality Control:** Standardized, deduplicated, and validated high-volume administrative healthcare encounter datasets.
+- **Patient Utilization Tiering:** Segmented patient populations based on encounter frequency to isolate top 10% high-utilizer cohorts for targeted care management and capacity planning.
+- **Service & Revenue Analysis:** Evaluated expenditure patterns across demographic groups and coverage tiers to optimize facility resource allocation.
+- **Workflow & Text Parsing:** Executed automated regular expressions to standardize medical service descriptions and dosage specifications from unstructured fields.
 
-## Core Competencies Demonstrated
-- Data Pipeline Execution & Cleaning (`pandas`, `numpy`)
-- Administrative Data Harmonization & Table Joins
-- Resource Allocation & Utilization Tiering
-- Operational Performance Metrics & Data Visualization (`seaborn`, `matplotlib`)
+## Technical Stack & Methods
+- **Language:** Python 3.x
+- **Data Analysis & Processing:** Pandas, NumPy
+- **Visual Analytics:** Matplotlib, Seaborn
+- **Frameworks:** Administrative Data Hygiene, Feature Engineering, Utilization Tiering
